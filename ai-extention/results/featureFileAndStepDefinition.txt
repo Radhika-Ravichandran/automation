@@ -1,0 +1,20 @@
+[
+"
+
+
+Feature: Login Button Interaction
+
+  Scenario Outline: Interacting with the Login button
+    Given I open the login page
+    When I click the Login button with class "decorativeSubmit"
+    Then I verify the Login button text is <expectedText>
+
+  Examples:
+    | expectedText |
+    | "Login"      |
+
+
+"
+]
+
+Copy
